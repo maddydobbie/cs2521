@@ -1,0 +1,24 @@
+Results for Tests on 5000 values
+
+Depth = depth of tree, Cost = average #comparisons per search
+
+
+             Ascending Order        Prefix Order        Random Order
+Insert
+Method       Depth      Cost     Depth      Cost     Depth      Cost
+
+L         ____5000  __3114.5  ______13  __11.750  ______28  __15.950
+
+A         ____5000  __1886.5  ____2954  __1115.1  ______28  ___16.28
+
+R         ____2492  __951.50  ____1774  __674.10  ______27  __15.155
+
+B         _____204  __61.961  ______20  __13.659  ______23  __13.025
+
+S         ______33  __7.1286  ______29  __6.8812  ____1146  __6.3506
+
+V         ______13  __11.773  ______14  __12.098  ______15  __11.786
+
+
+Notes (what the above indicates):
+As depth increases linearly, cost increases by a logarithmic function. The depth for ascending order is muchh larger than for random because each new node requires it to be on another level. Prefix order tends to have the least depth because it is optimised to have a balanced tree. 

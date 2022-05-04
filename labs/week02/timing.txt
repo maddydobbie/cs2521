@@ -1,0 +1,16 @@
+Input	Initial	Has	Number	AvgTime	AvgTime
+Size	Order	Dups	of runs	forusel	forsort
+5000	random	no	5	0.068	0.0112
+5000	sorted	no	5	0.0048	0.0025
+5000	reverse	no	5	0.004	0.002
+5000	random	yes	4	0.072	0.011
+5000	sorted	yes	4	0.056	0.012
+5000	reverse	yes	4	0.043	0.010
+10000	random	no	5	0.200	0.072
+10000	sorted	no	5	0.0088	0.0088
+10000	reverse	no	5	0.041	0.0064
+10000	random	yes	4	0.205	0.017
+10000	sorted	yes	4	0.156	0.016
+10000	reverse	yes	4	0.198	0.015
+
+The time is significantly shorter when the numbers are already sorted. The sort function is also much faster than the usel and the difference between them increases as sample size increases. 
